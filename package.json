@@ -1,11 +1,13 @@
 {
   "devDependencies": {
-    "@fitbit/sdk": "~6.0.0"
+    "@fitbit/sdk": "~6.0.0",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "prettier": "^2.5.1"
   },
   "fitbit": {
-    "appUUID": "b36d8ea6-c803-45fe-ad34-91dbe8d08e89",
+    "appUUID": "b491bb83-089f-48fc-a787-d2d8069395b2",
     "appType": "clockface",
-    "appDisplayName": "Programmer's Watch",
+    "appDisplayName": "FlaimWatch",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
     "requestedPermissions": [
@@ -23,9 +25,12 @@
     ],
     "i18n": {
       "en-US": {
-        "name": "Programmer's Watch"
+        "name": "FlaimWatch"
       }
     },
     "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }
